@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: Inter;
+}
+
+@theme {
+  /* Colors */
+  --color-primary: #3A7AFE;
+  --color-primary-dark: #2563EB;
+  --color-primary-light: #60A5FA;
+  --color-secondary: #1F2937;
+  --color-accent: #4ADE80;
+  --color-accent-dark: #22C55E;
+  --color-background: #F9FAFB;
+  --color-error: #EF4444;
+  --color-success: #4ADE80;
+  --color-warning: #F59E0B;
+  --color-border: #E5E7EB;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6B7280;
+  --color-white: #FFFFFF;
+
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
