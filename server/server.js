@@ -26,6 +26,8 @@ app.get('/', (req, res) => {
 app.use('/api/student', studentRouter);
 app.use('/api/recruiter', recruiterRouter);
 app.use('/api/companies', companyRouter);
+app.use('/api/admin', adminRouter);
+app.use('/api/projects', projectRouter);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
